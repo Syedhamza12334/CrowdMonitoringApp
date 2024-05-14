@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "FYP",
+    "slug": "FYP",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "googleServicesFile": "./google-services.json"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF",
+        "bundleIdentidier": "FYP",
+        "googleServicesFile": "./google-services.json",
+        "config": {
+          "googleMapsApiKey": "AIzaSyCcgBoRv3HFrHIVR2rCldh_RATil0Qeq-Ue"
+        }
+      },
+      "package": "com.hamzamaaz.FYP"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9494cb60-b046-4c56-af78-75d7a150f969"
+      }
+    }
+  }
+}
