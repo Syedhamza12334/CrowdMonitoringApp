@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "FYP",
-    "slug": "FYP",
+    "name": "CrowdMonitoringApp",
+    "slug": "CrowdMonitoringApp",
+    "sdkVersion": "25.0.0",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -25,7 +26,7 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF",
-        "bundleIdentidier": "FYP",
+        "bundleIdentidier": "CrowdMonitoringApp",
         "googleServicesFile": "./google-services.json",
         "config": {
           "googleMapsApiKey": "AIzaSyCcgBoRv3HFrHIVR2rCldh_RATil0Qeq-Ue"
@@ -40,6 +41,21 @@
       "eas": {
         "projectId": "9494cb60-b046-4c56-af78-75d7a150f969"
       }
-    }
+    },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "compileSdkVersion": 31,
+            "targetSdkVersion": 31,
+            "buildToolsVersion": "31.0.0"
+          },
+          "ios": {
+            "deploymentTarget": "13.0"
+          }
+        }
+      ]
+    ]
   }
 }
